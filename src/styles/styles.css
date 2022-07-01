@@ -4,10 +4,18 @@ body {
     background-size: cover;
 }
 
-.picture {
-    width: 150px;
+.row {
+    display: flex;
+}
+
+.column2 {
+    width: 50px;
     height: 150px;
-    cursor: pointer;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
 }
 
 #million {
@@ -16,9 +24,19 @@ body {
     height: 245px;
 }
 
-#pixiv {
+#twitter {
     width: 130px;
     height: 130px;
+}
+
+#gmail {
+    width: 90px;
+    height: 90px;
+}
+
+#pixiv {
+    width: 90px;
+    height: 90px;
 }
 
 .picture:hover {
@@ -90,6 +108,19 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: #000;
+    border-width: thin;
+}
+
+#containerdata2 {
+    transition: 400ms ease-in;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
     padding: 1rem;
     border: #000;
