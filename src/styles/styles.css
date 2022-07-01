@@ -1,1 +1,121 @@
+body {
+    background: rgb(1, 1, 102);
+    background: linear-gradient(180deg, rgba(1, 1, 102, 0.755)0%, rgba(124, 8, 186, 0.881)60%, rgba(1, 1, 102, 0.755)100%);
+    background-size: cover;
+}
 
+.picture {
+    width: 150px;
+    height: 150px;
+}
+
+#million {
+    border-radius: 14px;
+    width: 480px;
+    height: 245px;
+}
+
+#pixiv {
+    width: 130px;
+    height: 130px;
+}
+
+.picture:hover {
+    transform: scale(1.25);
+    transition: 200ms;
+}
+
+p {
+    transition: 400ms ease-in;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: beige;
+    text-shadow: 1px 1px 3px #000;
+}
+
+h4 {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: beige;
+    text-shadow: 1px 1px 3px #000;
+}
+
+h1 {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: beige;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.containertop {
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: beige;
+    border-radius: 10px;
+    border: 1px;
+}
+
+.namecontainer {
+    width: 200px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(0, 212, 106);
+    border-radius: 40px;
+    border: 1px;
+    transition: width 200ms;
+}
+
+.namecontainer:hover {
+    width: 350px;
+    background-color: rgb(93, 85, 253);
+    transition: 400ms ease-in;
+    transition: width 200ms;
+}
+
+.containerdata {
+    transition: 400ms ease-in;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border: #000;
+    border-width: thin;
+}
+
+.hiClick {
+    border: 0px;
+    border-radius: 30px;
+    background: rgb(89, 103, 228);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    transition: width 2s;
+    width: 150px;
+}
+
+.hiClick:hover {
+    border: 0px;
+    transition: 300ms ease-in;
+    border-radius: 30px;
+    background: rgb(0, 212, 106);
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    width: 200px;
+}
