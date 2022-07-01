@@ -52,6 +52,13 @@ p {
     text-shadow: 1px 1px 3px #000;
 }
 
+h3 {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    color: beige;
+    text-shadow: 1px 1px 3px #000;
+}
+
 h4 {
     font-family: "Century Gothic";
     font-weight: bold;
