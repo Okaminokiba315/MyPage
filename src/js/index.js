@@ -51,7 +51,7 @@ function openData1() {
 
 function openData2() {
     if (opened == false) {
-        document.getElementById("containerdata2").style.display = 'block';
+        document.getElementById("containerdata2").style.display = 'flex';
         opened = true;
     } else {
         opened = false;
