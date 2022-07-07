@@ -43,7 +43,7 @@ function openData() {
 function openData1() {
     if (opened2 == false) {
         document.getElementById("containerdata1").style.display = 'block';
-        opened = true;
+        opened2 = true;
     } else {
         opened2 = false;
         document.getElementById("containerdata1").style.display = 'none';
@@ -54,7 +54,7 @@ function openData1() {
 function openData2() {
     if (opened3 == false) {
         document.getElementById("containerdata2").style.display = 'flex';
-        opened = true;
+        opened3 = true;
     } else {
         opened3 = false;
         document.getElementById("containerdata2").style.display = 'none';
