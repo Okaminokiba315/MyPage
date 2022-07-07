@@ -26,6 +26,8 @@ $("#takeMe1").on('click', function() {
 });
 
 let opened = false;
+let opened2 = false;
+let opened3 = false;
 
 function openData() {
     if (opened == false) {
@@ -39,22 +41,22 @@ function openData() {
 }
 
 function openData1() {
-    if (opened == false) {
+    if (opened2 == false) {
         document.getElementById("containerdata1").style.display = 'block';
         opened = true;
     } else {
-        opened = false;
+        opened2 = false;
         document.getElementById("containerdata1").style.display = 'none';
     }
 
 }
 
 function openData2() {
-    if (opened == false) {
+    if (opened3 == false) {
         document.getElementById("containerdata2").style.display = 'flex';
         opened = true;
     } else {
-        opened = false;
+        opened3 = false;
         document.getElementById("containerdata2").style.display = 'none';
     }
 
