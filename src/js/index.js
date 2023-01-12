@@ -24,6 +24,9 @@ $("#takeMe").on('click', function() {
 $("#takeMe1").on('click', function() {
     window.location = "https://okaminokiba315.github.io/MillionPatPat/";
 });
+$("#takeMe2").on('click', function() {
+    window.location = "https://github.com/Okaminokiba315/DeviantartFaveChecker";
+});
 
 let opened = false;
 let opened2 = false;
