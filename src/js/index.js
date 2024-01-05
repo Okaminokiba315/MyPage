@@ -7,7 +7,7 @@ $("#facebook").on('click', function() {
 });
 
 $("#twitter").on('click', function() {
-    window.location = "https://twitter.com/Okaminokiba3154";
+    window.location = "https://twitter.com/Bulungans9";
 });
 $("#deviantArt").on('click', function() {
     window.location = "https://www.deviantart.com/okaminokiba315";
